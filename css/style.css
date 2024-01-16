@@ -1,0 +1,189 @@
+*{  
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background: rgba(16, 144, 216, 0.10);
+    height: 150px;
+    width: 100%;
+    padding: 0 12%;
+}
+
+.header a{
+color: rgba(17, 17, 17, 0.80);
+font-family: Inter;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+.inner-text{
+    color: rgba(17, 17, 17, 0.60);
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 1.5px;
+}
+.nav-button a{
+    font-size: 35px;
+   
+}
+.nav-button button{
+    border-radius: 8px;
+    background: #1090D8;
+    width: 120px;
+    height: 48px;
+    flex-shrink: 0;
+    transition: 1s;
+    box-shadow: 5px 5px 2px rgb(0, 0,.5);
+}
+.nav-button button:hover{
+    background: #7393B3;
+}
+
+.container{
+    display: flex;
+    /* overflow: hidden; */
+}
+.main-content{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    height: 563px;
+    width: 437px;
+    background: #FBBCED;
+    border-radius: 8px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    width: calc(33.33% - 20px); /* 33.33% width for each card with some spacing between them */
+    margin: 10px;
+    margin-top: 20px;
+}
+.card img{
+    height: 194px;
+    width: 243px;
+    display: block;
+    margin: auto; 
+    margin-top: 10px;
+}
+.card h3{
+    margin: auto;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+.card p{
+    color: #414141;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px;
+}
+.card button{
+    border-radius: 8px;
+    background: #1090D8;
+    width: 350px;
+    height: 56px;
+    flex-shrink: 0;
+    box-shadow: 5px 5px 2px rgb(0, 0,.5);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.card a{
+color: #FFF;
+text-decoration: none;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card{
+    text-align: center;
+}
+.card input{
+    height: 32px;
+    width: 20%;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    padding: 10px;
+}
+.card span{
+    color: #414141;
+
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.right-menu {
+    width: 20%;
+    
+}
+.result-card{
+    border-radius: 8px;
+    border: 1px solid rgba(17, 17, 17, 0.10); 
+    background: #FFF;
+    width: 437px;
+    height: 454.205px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+.right-menu-header{
+color: rgba(17, 17, 17, 0.80);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+text-decoration-line: underline;
+}
+.innerText-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+    padding: 0 5px;
+    
+}
+.innerText-main p{
+    color: rgba(17, 17, 17, 0.80);
+
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.innerText-main button{
+    color: white;
+}
+
+
